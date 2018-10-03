@@ -10,9 +10,8 @@ org 100h
 
 jmp start
 
-m1:
 s db 'able was ere ere saw elba'
-s_size = $ - m1
+s_size = 25
   db 0Dh,0Ah,'$'
 
 start:
